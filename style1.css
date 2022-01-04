@@ -28,7 +28,7 @@ section{
 .right img{
         border-radius: 100%;
         width: 50%;
-        border-top-width: 10px;
+        
 }
 .link-button{
         text-decoration: none;
@@ -51,6 +51,7 @@ section{
         background-repeat: no-repeat;
         background-position: right;
         margin: auto;
+        padding-top: 50px;
 }
 .item{
         width: 40%;
