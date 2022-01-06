@@ -17,18 +17,36 @@ section{
         display: flex;
         margin-bottom: 40px;
 }
-.left{
+.left-2{
         width: 50%;
         padding-left: 2%;
 }
 .left img{
-        width: 50%;
-        border-radius: 100%;
+        height: 30rem;
+        width: 30rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+        border: 5rem solid var(--red);
 }
-.right img{
-        border-radius: 100%;
+
+.bold{
+        text-align: center;
+        color: rosybrown;
+}
+
+.right-2{
         width: 50%;
-        
+        padding-left: 10%;
+}
+
+.right img{
+        height: 30rem;
+        width: 30rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+        border: 5rem solid var(--red);
 }
 .link-button{
         text-decoration: none;
@@ -43,29 +61,88 @@ section{
 {
    background-image: url(img/3.jpg);
    background-repeat: no-repeat;
-   background-position: right;
    margin: 0%;
+   padding-bottom: 40px;
+
 }
 .banner{
         background-image: url(img/3.jpg);
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: ;
         margin: auto;
         padding-top: 50px;
+        padding-bottom: 20px;
 }
 .item{
         width: 40%;
-        margin-left: 5%;
-        margin-right: 5%;
-        padding-left: 20px;
-        border-radius: 10px;
-        box-shadow: 10px 10px 40px gray;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 10px;
+        border-radius: 20px;
+        box-shadow: 15px 15px 50px gray;
         border-left: 10px solid;
-       
-}.experience{
+        height: 10%;
+        
+}
+
+.item img{
+        width: 50%;
+        display: block;
+        margin: 1px auto;
+}
+
+.experience{
               display: flex;
 }
 .item{
       left: 50%;
       
 }
+
+.box{
+      background-image: url(img/bg3.jpg);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 300px;
+      background-color: #D4E6F1;
+      padding-top: 30px;
+      padding-bottom: 40px;
+      margin: auto;
+}
+.heading{
+        background-color: #D4E6F1;
+        padding-bottom: 30px;
+        font-size: 40px;
+        margin: auto;
+}
+footer{
+        background-color: black;
+        color: darksalmon;
+        text-align: center;
+}
+.red{
+        color: red;
+}
+
+.corona img{
+        margin-top: 5%;
+        height: 600px;
+        width: 400px;
+
+}
+.corona{
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 200px;
+        background-image: url(img/shape-3.png);
+        background-position-y: bottom;
+}
+
+.corona img{
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 150px;
+        background-image: url(img/shape-3.png);
+        background-position-y: top 2rem;
+}
+
