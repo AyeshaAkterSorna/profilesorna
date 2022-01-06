@@ -1,4 +1,5 @@
 body{
+        background-color: #fde7e7;
         font-family: 'Lobster', cursive;
         font-family: 'Merienda', cursive;
         font-size: 700;
@@ -32,12 +33,17 @@ section{
 
 .bold{
         text-align: center;
-        color: rosybrown;
+        color: rgb(238, 22, 58);
+}
+
+.dev{
+        color: purple;
 }
 
 .right-2{
         width: 50%;
         padding-left: 10%;
+        
 }
 
 .right img{
@@ -59,14 +65,14 @@ section{
 }
 .top-banner
 {
-   background-image: url(img/3.jpg);
+   
    background-repeat: no-repeat;
    margin: 0%;
    padding-bottom: 40px;
 
 }
 .banner{
-        background-image: url(img/3.jpg);
+        
         background-repeat: no-repeat;
         background-position: ;
         margin: auto;
@@ -80,9 +86,13 @@ section{
         padding-left: 10px;
         border-radius: 20px;
         box-shadow: 15px 15px 50px gray;
-        border-left: 10px solid;
-        height: 10%;
         
+}
+
+#border{
+        border-left: 7px solid;
+        border-image: linear-gradient(blue,cyan);
+        border-image-slice: 1;
 }
 
 .item img{
@@ -99,50 +109,36 @@ section{
       
 }
 
-.box{
-      background-image: url(img/bg3.jpg);
-      background-repeat: no-repeat;
-      background-position: left;
-      background-size: 300px;
-      background-color: #D4E6F1;
-      padding-top: 30px;
-      padding-bottom: 40px;
-      margin: auto;
+
+.contact img{
+        width: 60%;
+        display: block;
+        margin: 1px auto;
+        padding-left: 50%;
+           
 }
-.heading{
-        background-color: #D4E6F1;
-        padding-bottom: 30px;
-        font-size: 40px;
-        margin: auto;
+
+.contact{
+       
+       margin: 1px;
+       padding-left: 20%;
 }
+
 footer{
-        background-color: black;
-        color: darksalmon;
+        background-color: #0B0D17;
         text-align: center;
-}
-.red{
-        color: red;
-}
-
-.corona img{
-        margin-top: 5%;
-        height: 600px;
-        width: 400px;
-
-}
-.corona{
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: 200px;
-        background-image: url(img/shape-3.png);
-        background-position-y: bottom;
-}
-
-.corona img{
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: 150px;
-        background-image: url(img/shape-3.png);
-        background-position-y: top 2rem;
-}
-
+        padding: 45px;
+    }
+    footer h3{
+        font-family: 'Lobster', cursive;
+        font-size: 36px;
+        margin-top: 0;
+        color: #FFFFFF;
+    }
+    footer p{
+        margin-bottom: 0;
+        color: #D9DBE1;
+    }
+    .text-brand{
+            color: red;
+    }
